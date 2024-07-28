@@ -22,37 +22,53 @@
     />
   </head>
   <body>
-    <article>
-      <h1>Learn to code by watching others</h1>
-      <p>
+    <article class="article-info">
+      <h1 class="title">Learn to code by watching others</h1>
+      <p class="description">
         See how propblems in real-time is great, but understanding how
         developers think is invaluable
       </p>
     </article>
-    <section>
-      <button type="button">
+    <section class="form-section">
+      <button class="tria-button" type="button">
         <b>Try it for free 7 days</b>
         then $20/mo.thereafter
       </button>
-      <form method="get">
-        <fieldset>
+      <form class="form" method="get">
+        <fieldset class="fieldset">
           <input
+            class="first-name"
             type="text"
             id="first-name"
             placeholder="First Name"
             required
           />
-          <input type="text" id="last-name" placeholder="Last Name" required />
-          <input type="email" id="email" placeholder="Email Address" required />
           <input
+            class="second-name"
+            type="text"
+            id="last-name"
+            placeholder="Last Name"
+            required
+          />
+          <input
+            class="email"
+            type="email"
+            id="email"
+            placeholder="Email Address"
+            required
+          />
+          <input
+            class="password"
             type="password"
             id="password"
             placeholder="password"
             required
           />
         </fieldset>
-        <button type="button">CLAIM YOUR FREE TRIAL</button>
-        <p>
+        <button class="claim-button" type="button">
+          CLAIM YOUR FREE TRIAL
+        </button>
+        <p class="terms-info">
           By clicking the button you are afreeing to our
           <b>Terms and Services</b>
         </p>
