@@ -37,7 +37,6 @@ body {
 
 .title,
 .description {
-  /* font-size: 16px; */
   color: white;
   font-weight: 700;
   text-align: center;
@@ -57,6 +56,8 @@ body {
   margin: 0 1.5rem 3rem 1.5rem;
 }
 
+/* Trial Button */
+
 .trial-button {
   padding: 1rem;
   background-color: var(--Blue);
@@ -65,4 +66,34 @@ body {
   margin-bottom: 2rem;
   box-shadow: 0 5px rgba(0, 0, 0, 0.5);
   line-height: 1.7;
+}
+
+/* Form */
+
+.form {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.fieldset {
+  border: none;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.first-name,
+.second-name,
+.email,
+.password,
+.claim-button {
+  margin: 0.5rem 0.5rem 0 0.5rem;
+  padding: 0.9rem;
+  border-radius: 5px;
+  border: 1px solid var(--Grayish-Blue);
+  color: var(--Dark-Blue);
+  font-weight: 500;
+  width: auto;
 }
