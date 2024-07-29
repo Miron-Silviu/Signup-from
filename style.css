@@ -90,10 +90,16 @@ body {
 .password,
 .claim-button {
   margin: 0.5rem 0.5rem 0 0.5rem;
-  padding: 0.9rem;
+  padding: 1rem;
   border-radius: 5px;
   border: 1px solid var(--Grayish-Blue);
   color: var(--Dark-Blue);
   font-weight: 500;
   width: auto;
+}
+
+.claim-button {
+  background-color: var(--Green);
+  color: white;
+  letter-spacing: 1px;
 }
