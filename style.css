@@ -1,5 +1,10 @@
 @import 'normalize.css';
 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 :root {
   /* Primary Color */
 
@@ -50,4 +55,14 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0 1.5rem 3rem 1.5rem;
+}
+
+.trial-button {
+  padding: 1rem;
+  background-color: var(--Blue);
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: 0 5px rgba(0, 0, 0, 0.5);
+  line-height: 1.7;
 }
