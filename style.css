@@ -28,6 +28,7 @@ body {
   background-color: var(--Red);
   background-image: url('./images/bg-intro-mobile.png');
   font-family: var(--font-family);
+  /* max-height: 100vh; */
 }
 /* Article  */
 
@@ -59,6 +60,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0 1.5rem 3rem 1.5rem;
+  margin: auto;
 }
 
 /* Trial Button */
@@ -71,6 +73,8 @@ body {
   margin-bottom: 2rem;
   box-shadow: 0 5px var(--gray);
   line-height: 1.7;
+  margin: 1rem;
+  border: none;
 }
 
 /* Form */
@@ -81,6 +85,7 @@ body {
   display: flex;
   flex-direction: column;
   box-shadow: 0 7px var(--gray);
+  margin: 1rem;
 }
 
 .fieldset {
@@ -88,6 +93,8 @@ body {
   gap: 1rem;
   display: flex;
   flex-direction: column;
+  margin: 0.5rem 0 0.5rem 0;
+  min-width: 50vw;
 }
 
 .first-name,
@@ -95,7 +102,6 @@ body {
 .email,
 .password,
 .claim-button {
-  margin: 0.5rem 0.5rem 0 0.5rem;
   padding: 1rem;
   border-radius: 5px;
   border: 1px solid var(--Grayish-Blue);
