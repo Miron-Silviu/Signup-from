@@ -127,3 +127,36 @@ body {
   color: var(--Red);
   font-weight: 700;
 }
+
+/* Media Queries */
+
+@media screen and (min-width: 900px) {
+  body {
+    background-image: url(./images/bg-intro-desktop.png);
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+  }
+  .form-section,
+  .article-info {
+    margin: 50px;
+    display: flex;
+  }
+  .form-section {
+    max-width: 40vw;
+  }
+  .fieldset {
+    min-width: 30vw;
+  }
+  .article-info {
+    text-align: left;
+    margin-right: 0;
+    max-width: 40vw;
+  }
+  .title,
+  .description {
+    text-align: left;
+    margin-left: 0;
+  }
+}
