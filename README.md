@@ -2,10 +2,9 @@
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
+- [The challenge](#the-challenge)
+- [Screenshot](#screenshot)
+- [Links](#links)
 - [My process](#my-process)
 - [Built with](#built-with)
 - [What I learned](#what-i-learned)
@@ -14,10 +13,6 @@
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
-## Overview
-
 ### The challenge
 
 Users should be able to:
@@ -25,29 +20,29 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 - Receive an error message when the `form` is submitted if:
-  - Any `input` field is empty. The message for this error should say _"[Field Name] cannot be empty"_
-  - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say _"Looks like this is not an email"_
+- Any `input` field is empty. The message for this error should say _"[Field Name] cannot be empty"_
+- The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say _"Looks like this is not an email"_
 
-### Screenshot
+## Links
 
-![](./screenshot.jpg)
+[VIEW:DEMO](https://miron-silviu.github.io/Signup-from/)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+## Screenshot
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
-### Links
-
-- Solution URL: [Add solution URL here](https://github.com/Miron-Silviu/Signup-from/actions/runs/10123379989/job/27996606186)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+![Mobile layout](image.png)
 
 ## My process
 
-### Built with
+### First Step :
+
+- I created html elements inside index.html file.
+
+### Second Step:
+
+- I styled html elements with mobile first in mind inside style.css
+- I linked normalize.css with index.html and style.css
+
+## Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
@@ -58,13 +53,9 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - [Next.js](https://nextjs.org/) - React framework
 - [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+## What I learned
 
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+I impoved my knowledeges regarding form input and fieldset. Also took an new style approach.
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
