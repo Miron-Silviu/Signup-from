@@ -131,8 +131,7 @@ body {
 .first-name,
 .second-name,
 .email,
-.password,
-.password-label {
+.password {
   background-image: url(./images/icon-error.svg);
   background-repeat: no-repeat;
   background-position-x: right;
@@ -142,7 +141,7 @@ body {
 }
 
 /* labels */
-.first-name-lable,
+.first-name-label,
 .second-name-label,
 .email-label,
 .password-label {
