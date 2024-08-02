@@ -30,7 +30,7 @@
         invaluable.
       </p>
     </article>
-    <section class="form-section">
+    <div class="form-section">
       <button class="trial-button" type="button">
         <b>Try it for free 7 days</b>
         then $20/mo.thereafter
@@ -44,6 +44,9 @@
             placeholder="First Name"
             required
           />
+          <label class="first-name-lable" for="first-name"
+            >First Name cannot be empty</label
+          >
 
           <input
             class="second-name"
@@ -52,7 +55,9 @@
             placeholder="Last Name"
             required
           />
-
+          <label class="second-name-label" for="first-name"
+            >First Name cannot be empty</label
+          >
           <input
             class="email"
             type="email"
@@ -60,7 +65,7 @@
             placeholder="Email Address"
             required
           />
-
+          <label class="email-label" for="email">Email cannot be empty</label>
           <input
             class="password"
             type="password"
@@ -68,6 +73,9 @@
             placeholder="Password"
             required
           />
+          <label class="password-label" for="password"
+            >Password cannot be empty</label
+          >
 
           <button class="claim-button" type="button">
             CLAIM YOUR FREE TRIAL
@@ -78,6 +86,6 @@
           <b class="bold-conditions-text">Terms and Services</b>
         </p>
       </form>
-    </section>
+    </div>
   </body>
 </html>
