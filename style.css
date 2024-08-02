@@ -131,13 +131,28 @@ body {
 .first-name,
 .second-name,
 .email,
-.password {
+.password,
+.password-label {
   background-image: url(./images/icon-error.svg);
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: center;
   background-origin: content-box;
-  /* background-image: none; */
+  background-image: none;
+}
+
+/* labels */
+.first-name-lable,
+.second-name-label,
+.email-label,
+.password-label {
+  color: var(--Red);
+  display: flex;
+  justify-content: end;
+  font-style: italic;
+  font-size: 1rem;
+  margin: 0 0 1rem 0;
+  display: none;
 }
 /* Media Queries */
 
