@@ -7,6 +7,12 @@ const secondaryName = document.querySelector('.second-name');
 const email = document.querySelector('.email');
 const password = document.querySelector('.password');
 
+// Gretting second classes
+
+const firstNameSecondClass = document.querySelector('.first_input');
+const secondNameSecondClass = document.querySelector('.second_input');
+const emailSecondClass = document.querySelector('.eamil_input');
+const passwordSecondClass = document.querySelector('.password_input');
 // labels
 const firstNameLabel = document.querySelector('.first-name-label');
 const secondNameLabel = document.querySelector('.second-name-label');
