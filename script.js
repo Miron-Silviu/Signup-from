@@ -2,22 +2,23 @@
 
 // Getting the reference to the input field and button
 
-const primaryName = document.querySelector('.first-name');
-const secondaryName = document.querySelector('.second-name');
-const email = document.querySelector('.email');
-const password = document.querySelector('.password');
+let primaryName = document.querySelector('.first-name');
+let secondaryName = document.querySelector('.second-name');
+let email = document.querySelector('.email');
+let password = document.querySelector('.password');
 
 // Gretting second classes
 
-const firstNameSecondClass = document.querySelector('.first_input');
-const secondNameSecondClass = document.querySelector('.second_input');
-const emailSecondClass = document.querySelector('.eamil_input');
-const passwordSecondClass = document.querySelector('.password_input');
+let firstNameSecondClass = document.querySelector('.first_input');
+let secondNameSecondClass = document.querySelector('.second_input');
+let emailSecondClass = document.querySelector('.eamil_input');
+let passwordSecondClass = document.querySelector('.password_input');
+
 // labels
-const firstNameLabel = document.querySelector('.first-name-label');
-const secondNameLabel = document.querySelector('.second-name-label');
-const labelEmail = document.querySelector('.email-label');
-const LabelPassword = document.querySelector('.password-label');
+let firstNameLabel = document.querySelector('.first-name-label');
+let secondNameLabel = document.querySelector('.second-name-label');
+let labelEmail = document.querySelector('.email-label');
+let LabelPassword = document.querySelector('.password-label');
 
 // button
 const btn = document.querySelector('.claim-button');
@@ -36,8 +37,9 @@ const isEmailInvalid = function (input) {
 
 // Add  Listener Event
 btn.addEventListener('click', function () {
-  if (primaryName) {
+  if (primaryName === '') {
     firstNameLabel.style.display = 'flex';
+    firstNameSecondClass.style.display = 'flex';
   } else {
     console.log('Nothing');
   }
