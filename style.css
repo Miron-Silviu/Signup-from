@@ -128,10 +128,10 @@ body {
   font-weight: 700;
 }
 /* Input background image */
-.first-name,
-.second-name,
-.email,
-.password {
+.first-input,
+.second-input,
+.email_input,
+.password_input {
   background-image: url(./images/icon-error.svg);
   background-repeat: no-repeat;
   background-position-x: right;
