@@ -33,14 +33,23 @@ Users should be able to:
 
 ## My process
 
-### First Step :
+## First Step :
 
 - I created html elements inside index.html file.
 
-### Second Step:
+## Second Step:
 
 - I styled html elements with mobile first in mind inside style.css
 - I linked normalize.css with index.html and style.css
+
+## Third Step
+
+- I the third step a feature branch was created with
+- Script.js file was created
+- Getting reference to the input field and button
+- Create function to validate email using a regular expresion
+- Create a function to check if the email is valid
+- Add Listener Event
 
 ## Built with
 
@@ -49,9 +58,7 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- [Styled Components](https://styled-components.com/)
 
 ## What I learned
 
@@ -89,7 +96,10 @@ I impoved my knowledeges regarding form input and fieldset. Also took an new sty
 
 ```js
 const proudOfThisFunc = () => {
-  console.log('🎉');
+  const isEmailValid = function (input) {
+    const emailPatern = /^[^\s@][+@[^\s@]+\.[^\s@]+$/;
+    return emailPatern.test(input);
+  };
 };
 ```
 
