@@ -7,12 +7,12 @@ let secondaryName = document.querySelector('.second-name');
 let email = document.querySelector('.email');
 let password = document.querySelector('.password');
 
-// Gretting second classes
+// Getting second classes
 
-let firstNameSecondClass = document.querySelector('.first_input');
-let secondNameSecondClass = document.querySelector('.second_input');
-let emailSecondClass = document.querySelector('.eamil_input');
-let passwordSecondClass = document.querySelector('.password_input');
+let firstNameSecondClass = document.getElementById('first-name');
+let secondNameSecondClass = document.getElementById('second_input');
+let emailSecondClass = document.getElementById('email_input');
+let passwordSecondClass = document.getElementById('password_input');
 
 // labels
 let firstNameLabel = document.querySelector('.first-name-label');
@@ -29,7 +29,7 @@ const isEmailValid = function (input) {
   return emailPatern.test(input);
 };
 
-// Create function to chck if the email is valid
+// Create function to check if the email is valid
 
 const isEmailInvalid = function (input) {
   return !isEmailValid(input);
@@ -39,7 +39,6 @@ const isEmailInvalid = function (input) {
 btn.addEventListener('click', function () {
   if (primaryName === '') {
     firstNameLabel.style.display = 'flex';
-    firstNameSecondClass.style.display = 'flex';
   } else {
     console.log('Nothing');
   }
