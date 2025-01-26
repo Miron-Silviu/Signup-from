@@ -37,7 +37,7 @@ const isEmailInvalid = function (input) {
 
 // Add  Listener Event
 btn.addEventListener('click', function () {
-  if (primaryName === '') {
+  if (primaryName.value === '') {
     firstNameLabel.style.display = 'flex';
   } else {
     console.log('Nothing');
