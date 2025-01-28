@@ -37,11 +37,13 @@ const isEmailInvalid = function (input) {
 
 // Add  Listener Event
 btn.addEventListener('click', function () {
+
   // if (secondaryName.value === '') {
   //   firstNameLabel.style.display = 'flex';
   // } else if (primaryName.value === '') {
   //   secondNameLabel.style.display = 'flex';
   // }
+
 
   if (primaryName.value === '') {
     firstNameLabel.style.display = 'flex';
