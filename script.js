@@ -37,9 +37,21 @@ const isEmailInvalid = function (input) {
 
 // Add  Listener Event
 btn.addEventListener('click', function () {
-  if (primaryName === '') {
+  // if (secondaryName.value === '') {
+  //   firstNameLabel.style.display = 'flex';
+  // } else if (primaryName.value === '') {
+  //   secondNameLabel.style.display = 'flex';
+  // }
+
+  if (primaryName.value === '') {
     firstNameLabel.style.display = 'flex';
   } else {
-    console.log('Nothing');
+    console.log(primaryName.value);
+  }
+
+  if (secondaryName.value === '') {
+    secondNameLabel.style.display = 'flex';
+  } else {
+    console.log(secondaryName.value);
   }
 });
